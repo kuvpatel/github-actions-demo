@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace github_actions_demo
 {
-    internal class CustomerService
+    public class CustomerService
     {
+        public string GetFullName(Customer customer)
+        {
+            return $"{customer.FirstName} {customer.LastName}";
+        }
     }
 }

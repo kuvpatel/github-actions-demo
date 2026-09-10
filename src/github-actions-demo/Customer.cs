@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace github_actions_demo
 {
-    public class customer
+    public class Customer
     {
         public int Id { get; set; }
         public string FirstName { get; set; } = string.Empty;

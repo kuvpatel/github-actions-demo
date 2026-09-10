@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="src/github-actions-demo/github-actions-demo.csproj" />
+  <Project Path="tests/github-actions-demo.tests/github-actions-demo.tests.csproj" Id="ce2dd942-2bbc-42df-9d8e-81407c4cf82c" />
 </Solution>
