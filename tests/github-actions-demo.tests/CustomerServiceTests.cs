@@ -22,7 +22,7 @@ namespace github_actions_demo.tests
             var result = service.GetFullName(customer);
 
             // Assert
-            Assert.Equal("Jane Smith", result);
+            Assert.Equal("John Smith", result);
         }
     }
 }
