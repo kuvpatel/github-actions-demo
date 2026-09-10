@@ -12,5 +12,10 @@ namespace github_actions_demo
         {
             return $"{customer.FirstName} {customer.LastName}";
         }
+
+        public string GetCountry(Customer customer)
+        {
+            return $"{customer.Country}";
+        }
     }
 }
