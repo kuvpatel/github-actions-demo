@@ -35,7 +35,7 @@ jobs:
 
       - name: Publish
         run: dotnet publish src/GitHubActionsDemo/GitHubActionsDemo.csproj --configuration Release --output ./publish
-
+# create artifact
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
